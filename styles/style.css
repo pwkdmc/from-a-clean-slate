@@ -1,0 +1,274 @@
+﻿*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: Inter, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.main,
+.header,
+.footer {
+  width: 360px;
+  margin: auto;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.header {
+  background-color: #131313;
+  color: #f5f5f5;
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header__logo-image {
+  width: 78.45px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+.header__menu-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.header__menu-link_active {
+  border-bottom: 0;
+}
+
+a:visited {
+  color: #f5f5f5;
+}
+
+.cover {
+  padding: 10px 24px 30px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-size: 340px 221px;
+  background-position: 21px 20px;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #fff;
+}
+
+.text-center {
+  align-self: center;
+}
+
+.text-right {
+  align-self: flex-end;
+}
+
+.intro {
+  padding: 5px 20px 38px;
+}
+
+.intro__date {
+  text-wrap: nowrap;
+}
+
+.intro__heading {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.intro__title,
+.intro__date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #ccc;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  line-height: 115%;
+  letter-spacing: 0;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-section__list-item {
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-left: 16px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.how-to {
+  padding: 40px 20px 58px;
+}
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card__author {
+  margin-bottom: 6px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-bottom: 7px;
+}
+
+.card__author-name {
+  font-size: 16px;
+  line-height: 135%;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.card__title {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 135%;
+  letter-spacing: 0;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.footer {
+  padding: 0 20px;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f5f5f5;
+  background-color: #131313;
+  border-top: 1px solid #fee42a;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.footer__copy {
+  font-size: 16px;
+  line-height: 135%;
+  letter-spacing: 0;
+  font-weight: 400;
+}
